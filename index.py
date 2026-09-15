@@ -17,4 +17,12 @@ while not_found:
         print("Access granted")
         not_found = False
 
-print("Password Matched!")    
+print("Password Matched!")   
+
+# 3rd Code - table of numbers
+
+i = 1
+num = int(input("Enter a number to print its table: "))
+while i <= 10: 
+        print(num * i)
+        i += 1
